@@ -1,0 +1,71 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.872131",
+   "Default View_TopLeft":"470,96",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS
+#  -string -flagsOSRD
+preplace port gpio_usb_int -pg 1 -lvl 2 -x 1630 -y 550 -defaultsOSRD
+preplace port gpio_usb_keycode_0 -pg 1 -lvl 2 -x 1630 -y 60 -defaultsOSRD
+preplace port gpio_usb_keycode_1 -pg 1 -lvl 2 -x 1630 -y 90 -defaultsOSRD
+preplace port gpio_usb_rst -pg 1 -lvl 2 -x 1630 -y 220 -defaultsOSRD
+preplace port uart_rtl_0 -pg 1 -lvl 2 -x 1630 -y 730 -defaultsOSRD
+preplace port port-id_clk_100MHz -pg 1 -lvl 0 -x -30 -y 480 -defaultsOSRD
+preplace port port-id_reset_rtl_0 -pg 1 -lvl 0 -x -30 -y 540 -defaultsOSRD
+preplace port port-id_usb_spi_miso -pg 1 -lvl 0 -x -30 -y 900 -defaultsOSRD
+preplace port port-id_usb_spi_mosi -pg 1 -lvl 2 -x 1630 -y 920 -defaultsOSRD
+preplace port port-id_usb_spi_sclk -pg 1 -lvl 2 -x 1630 -y 950 -defaultsOSRD
+preplace portBus usb_spi_ss -pg 1 -lvl 2 -x 1630 -y 980 -defaultsOSRD
+preplace inst axi_uartlite_0 -pg 1 -lvl 1 -x 1140 -y -830 -defaultsOSRD
+preplace inst clk_wiz_1 -pg 1 -lvl 1 -x 1140 -y -700 -defaultsOSRD
+preplace inst gpio_usb_int -pg 1 -lvl 1 -x 1140 -y 1920 -defaultsOSRD
+preplace inst gpio_usb_keycode -pg 1 -lvl 1 -x 1140 -y 1750 -defaultsOSRD
+preplace inst gpio_usb_rst -pg 1 -lvl 1 -x 1140 -y -570 -defaultsOSRD
+preplace inst mdm_1 -pg 1 -lvl 1 -x 1140 -y 1610 -defaultsOSRD
+preplace inst microblaze_0 -pg 1 -lvl 1 -x 1140 -y -420 -defaultsOSRD
+preplace inst microblaze_0_axi_intc -pg 1 -lvl 1 -x 1140 -y 1450 -defaultsOSRD
+preplace inst microblaze_0_axi_periph -pg 1 -lvl 1 -x 1140 -y -110 -defaultsOSRD
+preplace inst microblaze_0_local_memory -pg 1 -lvl 1 -x 1140 -y 1280 -defaultsOSRD
+preplace inst rst_clk_wiz_1_100M -pg 1 -lvl 1 -x 1140 -y 210 -defaultsOSRD
+preplace inst spi_usb -pg 1 -lvl 1 -x 1140 -y 560 -defaultsOSRD
+preplace inst timer_usb_axi -pg 1 -lvl 1 -x 1140 -y 1100 -defaultsOSRD
+preplace inst xlconcat_0 -pg 1 -lvl 1 -x 1140 -y 920 -defaultsOSRD
+preplace netloc axi_uartlite_0_interrupt 1 0 2 160 750 1460J
+preplace netloc clk_100MHz_1 1 0 1 -10J -690n
+preplace netloc clk_wiz_1_locked 1 0 2 70 -980 1420
+preplace netloc gpio_usb_int_ip2intc_irpt 1 0 2 180 820 1400J
+preplace netloc mdm_1_debug_sys_rst 1 0 2 130 330 1440
+preplace netloc microblaze_0_Clk 1 0 2 10 -970 1410
+preplace netloc reset_rtl_0_1 1 0 1 0J 190n
+preplace netloc rst_clk_wiz_1_100M_bus_struct_reset 1 0 2 140 780 1430
+preplace netloc rst_clk_wiz_1_100M_mb_reset 1 0 2 60 310 1380
+preplace netloc rst_clk_wiz_1_100M_peripheral_aresetn 1 0 2 20 320 1370
+preplace netloc spi_usb_io0_o 1 1 1 1510 470n
+preplace netloc spi_usb_ip2intc_irpt 1 0 2 170 790 1370J
+preplace netloc spi_usb_sck_o 1 1 1 1490 590n
+preplace netloc spi_usb_ss_o 1 1 1 1480 650n
+preplace netloc timer_usb_axi_interrupt 1 0 2 190 810 1380J
+preplace netloc usb_spi_miso_1 1 0 2 -10J 800 1380J
+preplace netloc xlconcat_0_dout 1 0 2 150 830 1370
+preplace netloc axi_uartlite_0_UART 1 1 1 1540 -840n
+preplace netloc gpio_usb_int 1 1 1 1530 550n
+preplace netloc gpio_usb_keycode_0 1 1 1 1500 60n
+preplace netloc gpio_usb_keycode_1 1 1 1 1520 90n
+preplace netloc gpio_usb_rst 1 1 1 1530 -570n
+preplace netloc microblaze_0_axi_dp 1 0 2 80 -960 1450
+preplace netloc microblaze_0_axi_periph_M01_AXI 1 0 2 30 340 1420
+preplace netloc microblaze_0_axi_periph_M02_AXI 1 0 2 90 -950 1440
+preplace netloc microblaze_0_axi_periph_M03_AXI 1 0 2 110 350 1410
+preplace netloc microblaze_0_axi_periph_M04_AXI 1 0 2 100 -940 1430
+preplace netloc microblaze_0_axi_periph_M05_AXI 1 0 2 160 360 1400
+preplace netloc microblaze_0_axi_periph_M06_AXI 1 0 2 130 370 1390
+preplace netloc microblaze_0_debug 1 0 2 110 -930 1470
+preplace netloc microblaze_0_dlmb_1 1 0 2 40 -920 1380
+preplace netloc microblaze_0_ilmb_1 1 0 2 50 -910 1370
+preplace netloc microblaze_0_intc_axi 1 0 2 120 770 1450J
+preplace netloc microblaze_0_interrupt 1 0 2 120 760 1390
+levelinfo -pg 1 -30 1140 1630
+pagesize -pg 1 -db -bbox -sgen -170 -990 1810 2140
+"
+}
+0
